@@ -461,7 +461,7 @@ def predict_fallback_lexicon(review_text):
 # ============================================================
 # UI
 # ============================================================
-st.title("🛒 Demo ABSA Tokopedia")
+st.title("🛒 Aanalisis Sentimen Berbasis Aspek pada Review Tokopedia Menggunakan IndoBERT")
 st.caption("Pipeline: IndoBERT-BiLSTM-CRF untuk ekstraksi aspek + mDeBERTa-v3 untuk klasifikasi sentimen aspek.")
 
 with st.expander("Status folder model", expanded=False):
@@ -493,7 +493,7 @@ with col1:
     analyze = st.button("Analisis", type="primary", use_container_width=True)
 
 with col2:
-    st.info("Output demo dibatasi menjadi 1 aspek utama per review, sesuai pipeline notebook kamu.")
+    st.info("Output dibatasi menjadi 1 aspek utama per review")
 
 if analyze:
     if not review_text.strip():
