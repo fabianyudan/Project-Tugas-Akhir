@@ -13,7 +13,7 @@ from transformers import AutoModel, AutoModelForSequenceClassification, AutoToke
 # KONFIGURASI STREAMLIT
 # ============================================================
 st.set_page_config(
-    page_title="ABSA Tokopedia Demo",
+    page_title="Analisis Sentimen Berbasis Aspek pada Review Tokopedia",
     page_icon="🛒",
     layout="wide",
 )
