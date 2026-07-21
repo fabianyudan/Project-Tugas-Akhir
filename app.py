@@ -75,7 +75,7 @@ NEGATIVE_WORDS = {
     "jelek", "buruk", "kecewa", "rusak", "cacat", "palsu", "mahal",
     "lama", "telat", "lambat", "terlambat", "penyok", "sobek", "hancur",
     "jutek", "slow", "tidak", "nggak", "ga", "gak", "kurang", "parah",
-    "mengecewakan", "zonk"
+    "mengecewakan", "bau", "zonk"
 }
 
 NEGATION_WORDS = {"tidak", "nggak", "ga", "gak", "bukan", "kurang"}
